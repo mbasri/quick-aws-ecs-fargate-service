@@ -31,7 +31,7 @@ output:
     ### 1. Create infrastructure
 
     ```shell
-    git clone https://gitlab.com/mbasri/quick-aws-ecs-fargate-service.git
+    git clone https://github.com/mbasri/quick-aws-ecs-fargate-service.git
     cd quick-aws-ecs-fargate-service
     terraform init
     terraform apply
@@ -40,7 +40,7 @@ output:
     ### 2. Destroy infrastructure
 
     ```shell
-    git clone https://gitlab.com/mbasri/quick-aws-ecs-fargate-service.git
+    git clone https://github.com/mbasri/quick-aws-ecs-fargate-service.git
     cd quick-aws-ecs-fargate-service
     terraform init
     terraform destroy
@@ -62,7 +62,7 @@ output:
 
     ## *Author*
 
-    * [**Mohamed BASRI**](https://gitlab.com/mbasri)
+    * [**Mohamed BASRI**](https://github.com/mbasri)
 
     ## *License*
 
