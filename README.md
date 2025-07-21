@@ -41,8 +41,8 @@ terraform-docs -c .terraform-docs.yml .
 
 | Name | Version |
 |------|---------|
-| <a name="requirement_terraform"></a> [terraform](#requirement\_terraform) | 1.10.2 |
-| <a name="requirement_aws"></a> [aws](#requirement\_aws) | 5.81.0 |
+| <a name="requirement_terraform"></a> [terraform](#requirement\_terraform) | 1.12.2 |
+| <a name="requirement_aws"></a> [aws](#requirement\_aws) | 6.4.0 |
 
 ## Providers
 
@@ -52,11 +52,11 @@ No providers.
 
 | Name | Source | Version |
 |------|--------|---------|
-| <a name="module_ecs-cluster"></a> [ecs-cluster](#module\_ecs-cluster) | git::https://gitlab.com/mbasri-terraform/modules/aws/terraform-aws-ecs-cluster | v1.0.0 |
-| <a name="module_kms"></a> [kms](#module\_kms) | git::https://gitlab.com/mbasri-terraform/modules/aws/terraform-aws-kms | v1.3.0 |
-| <a name="module_security-group-alb"></a> [security-group-alb](#module\_security-group-alb) | git::https://gitlab.com/mbasri-terraform/modules/aws/terraform-aws-security-group | v1.2.0 |
+| <a name="module_ecs-cluster"></a> [ecs-cluster](#module\_ecs-cluster) | git::https://gitlab.com/mbasri-terraform/modules/aws/terraform-aws-ecs-cluster | v1.1.0 |
+| <a name="module_kms"></a> [kms](#module\_kms) | git::https://gitlab.com/mbasri-terraform/modules/aws/terraform-aws-kms | v1.4.0 |
+| <a name="module_security-group-alb"></a> [security-group-alb](#module\_security-group-alb) | git::https://gitlab.com/mbasri-terraform/modules/aws/terraform-aws-security-group | v1.3.0 |
 | <a name="module_security-group-task"></a> [security-group-task](#module\_security-group-task) | git::https://gitlab.com/mbasri-terraform/modules/aws/terraform-aws-security-group | v1.2.0 |
-| <a name="module_vpc"></a> [vpc](#module\_vpc) | git::https://gitlab.com/mbasri-terraform/modules/aws/terraform-aws-vpc | v1.7.0 |
+| <a name="module_vpc"></a> [vpc](#module\_vpc) | git::https://gitlab.com/mbasri-terraform/modules/aws/terraform-aws-vpc | v1.8.0 |
 
 ## Resources
 
