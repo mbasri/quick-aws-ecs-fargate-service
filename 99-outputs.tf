@@ -105,62 +105,63 @@ output "vpc_flow_logs_cwl_id" {
 # ALB
 output "security_group_arn_alb" {
   description = "The ARN of the security group"
-  value       = module.security-group.security_group_arn
+  value       = module.security-group-alb.security_group_arn
 }
 
 output "security_group_id_alb" {
   description = "The ID of the security group"
-  value       = module.security-group.security_group_id
+  value       = module.security-group-alb.security_group_id
 }
 
 output "security_group_vpc_id_alb" {
   description = "The VPC ID"
-  value       = module.security-group.security_group_vpc_id
+  value       = module.security-group-alb.security_group_vpc_id
 }
 
 output "security_group_owner_id_alb" {
   description = "The owner ID"
-  value       = module.security-group.security_group_owner_id
+  value       = module.security-group-alb.security_group_owner_id
 }
 
 output "security_group_name_alb" {
   description = "The name of the security group"
-  value       = module.security-group.security_group_name
+  value       = module.security-group-alb.security_group_name
 }
 
 output "security_group_description_alb" {
   description = "The description of the security group"
-  value       = module.security-group.security_group_description
+  value       = module.security-group-alb.security_group_description
 }
+
 # Task
 output "security_group_arn_task" {
   description = "The ARN of the security group"
-  value       = module.security-group.security_group_arn
+  value       = module.security-group-task.security_group_arn
 }
 
 output "security_group_id_task" {
   description = "The ID of the security group"
-  value       = module.security-group.security_group_id
+  value       = module.security-group-task.security_group_id
 }
 
 output "security_group_vpc_id_task" {
   description = "The VPC ID"
-  value       = module.security-group.security_group_vpc_id
+  value       = module.security-group-task.security_group_vpc_id
 }
 
 output "security_group_owner_id_task" {
   description = "The owner ID"
-  value       = module.security-group.security_group_owner_id
+  value       = module.security-group-task.security_group_owner_id
 }
 
 output "security_group_name_task" {
   description = "The name of the security group"
-  value       = module.security-group.security_group_name
+  value       = module.security-group-task.security_group_name
 }
 
 output "security_group_description_task" {
   description = "The description of the security group"
-  value       = module.security-group.security_group_description
+  value       = module.security-group-task.security_group_description
 }
 
 #---------------------------------------------------------------------------------------------------

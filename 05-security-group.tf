@@ -42,11 +42,11 @@ module "security-group-task" {
 
   ingress_rules_with_referenced_security_group_id = [
     {
-      ip_protocol       = "tcp"
-      from_port         = "443"
-      to_port           = "443"
-      security_group_id = module.security-group-alb.security_group_id
-      description       = "[Terraform] HTTPS from ALB"
+      ip_protocol                  = "tcp"
+      from_port                    = "443"
+      to_port                      = "443"
+      referenced_security_group_id = module.security-group-alb.security_group_id
+      description                  = "[Terraform] HTTPS from ALB"
     }
   ]
 

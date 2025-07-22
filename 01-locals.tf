@@ -15,7 +15,6 @@ locals {
   ecs_cluster_name    = local.name
   ecs_service_name    = local.name
 
-
   tags = {
     "Name"        = local.name,
     "Description" = "Quick AWS ECS Fargate Service",
